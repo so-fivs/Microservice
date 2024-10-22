@@ -9,6 +9,11 @@ spring:
     url: jbdc:mysql://localhost:3306/ordenesDB
     username: root
     password: Juanes1330*
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: user
+      password: password
   jpa:
     hibernate:
       ddl-auto: create

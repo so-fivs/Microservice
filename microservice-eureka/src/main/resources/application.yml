@@ -5,8 +5,12 @@ spring:
   application:
     name: msvc-eureka
   config:
-    import: optional:configserver:http://localhost:0000888
-
+    import: optional:configserver:http://localhost:8888
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: password
 eureka:
   instance:
     hostname: localhost
